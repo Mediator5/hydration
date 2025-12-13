@@ -1,60 +1,43 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import toast, { Toaster } from 'react-hot-toast';
-import {
-  QueryClient,
-  QueryClientProvider,
-  useQuery,
-} from '@tanstack/react-query'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import AppLayout from "./components/AppLayout";
+import Home from "./components/Home";
+import BlogPage from "./components/BlogPage";
+import AboutPage from "./components/AboutPage";
+import JosephCalebPage from "./components/JosephCalebPage";
+import JeanetteIrwin from "./components/JeanetteIrwin";
+import ConatctPage from "./components/ConatctPage";
+import ServicePage from "./components/ServicePage";
+import MyContext from "./components/MyContext";
+import { useState } from "react";
+import blogPosts from "./services/blogData";
+import OurBlogPage from "./components/OurBlogPage";
+import NotFound from "./components/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
+import ThankYouPage from "./components/ThankYouPage";
 
-import AppLayout from "./pages/AppLayout";
-import Home from "./pages/home";
-import Properties from "./compoments/Properties";
-import Dashboard from "./compoments/Dashboard";
-import Settings from "./compoments/Settings";
-import Bookings from "./compoments/Bookings";
-import Favourites from "./compoments/Favourites";
-import queryClient from "./services/queryClient";
-import { createContext, useContext, useState } from "react";
-import { FormContext } from "./context/FormContext";
-
-
-
-
-
-
+blogPosts
 
 export default function App() {
-  const [showEditForm, setShowEditForm] = useState(false)
-  const [propertyData, setPropertyData] = useState({})
-  const [showForm, setShowForm] = useState(false)
-
-
-
+  const [blogData, setBlogData] = useState([])
   return (
-    <div className="App">
-      <QueryClientProvider client={queryClient}>
-        <ReactQueryDevtools initialIsOpen={false} />
-        <FormContext.Provider value={{ showEditForm, setShowEditForm, propertyData, setPropertyData, showForm, setShowForm }}>
-          <BrowserRouter>
-            <Routes>
-              {/* <Route path="/" element={<Home />} /> */}
-              <Route path="/" element={<AppLayout />}>
-                <Route index element={<Navigate replace to={'dashboard'} />} />
-                <Route path="properties" element={<Properties />} />
-                <Route path="dashboard" element={<Dashboard />} />
-                <Route path="bookings" element={<Bookings />} />
-                <Route path="favourites" element={<Favourites />} />
-                <Route path="settings" element={<Settings />} />
-              </Route>
-
-              <Route path="/*" />
-            </Routes>
-          </BrowserRouter>
-        </FormContext.Provider>
-        <Toaster />
-      </QueryClientProvider>
-
-    </div>
+    <MyContext.Provider value={{ blogData, setBlogData, blogPosts }}>
+      <HashRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<AppLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/joseph-caleb" element={<JosephCalebPage />} />
+            <Route path="/jeanette-irwin" element={<JeanetteIrwin />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/blog/" element={<OurBlogPage />} />
+            <Route path="/blog/:id" element={<BlogPage />} />
+            <Route path="/contact" element={<ConatctPage />} />
+            <Route path="/services" element={<ServicePage />} />
+            <Route path="/thank-you" element={<ThankYouPage />} />
+            <Route path="/*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </HashRouter>
+    </MyContext.Provider>
   );
 }
