@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
+    base: "./", // ✅ crucial for SPA routing on Vercel
     build: {
       outDir,
       emptyOutDir: true,
