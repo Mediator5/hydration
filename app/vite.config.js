@@ -5,7 +5,7 @@ import { resolve } from "path";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "../build",
+    outDir: "build",
     emptyOutDir: true,
     rollupOptions: {
       input: {
