@@ -7,3 +7,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-bronze {
+    color: #A97239;
+  }
+
+  .bg-bronze {
+    background-color: #A97239;
+  }
+
+  .border-bronze {
+    border-color: #A97239;
+  }
+}

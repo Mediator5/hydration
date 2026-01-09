@@ -20,9 +20,11 @@ export default {
           800: "#8B6508",
           900: "#593F04",
         },
+        bronze: '#A97239'
       },
       fontFamily: {
-        heading: ['"Playfair Display"', 'serif'],
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['Montserrat', 'ui-sans-serif', 'system-ui'],
       },
     },
   },

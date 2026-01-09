@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Roop
+ * Plugin Name: hydration_solution_react
  * Plugin URI:  https://example.com/roop
  * Description: A modern coaching plugin template for WordPress.
  * Version:     1.0.0
@@ -9,7 +9,7 @@
  * Author URI:  https://example.com
  * License:     GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: roop
+ * Text Domain: hydration_solution_react
  * Domain Path: /languages
  */
 
