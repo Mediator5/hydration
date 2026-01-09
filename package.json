@@ -1,0 +1,16 @@
+{
+  "name": "hydration_solution_react",
+  "version": "1.0.0",
+  "description": "WordPress React boilerplate for Hydration Solution",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^7.0.12"
+  }
+}
