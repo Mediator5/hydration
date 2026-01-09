@@ -12,7 +12,7 @@
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },  // serverless functions
-    { "src": "/(.*)", "dest": "/index.html" }   // SPA fallback
+    { "src": "/api/(.*)", "dest": "/api/$1" },  
+    { "src": "/(.*)", "dest": "/index.html" }   
   ]
 }

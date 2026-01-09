@@ -38,7 +38,7 @@ add_action('wp_enqueue_scripts', function () {
         // Your Vite-built app
         wp_enqueue_script(
             'myplugin-script',
-            plugin_dir_url(__FILE__) . '/build/index.js',
+            plugin_dir_url(__FILE__) . '/wp-build/index.js',
             array('react', 'react-dom'), // Dependencies
             '1.0.0',
             true
