@@ -58,7 +58,7 @@ Message: ${formData.message}
     };
 
     return (
-        <section className="w-full bg-bronze py-16 px-6 lg:px-12" id="booking">
+        <section className="w-full bg-gradient-primary  py-16 px-6 lg:px-12" id="booking">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Column - Form */}
@@ -146,7 +146,7 @@ Message: ${formData.message}
                             {/* Submit Button */}
                             <button
                                 onClick={handleSubmit}
-                                className="group flex items-center gap-3 bg-bronze hover:bg-amber-700 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                                className="group flex items-center gap-3 bg-teal hover:bg-ocean text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
                             >
                                 <span className="tracking-wider text-sm">SUBMIT NOW</span>
                                 <svg

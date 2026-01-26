@@ -36,7 +36,7 @@ export default function Header() {
 
             </nav>
             
-            <a href="#booking" className="bg-bronze hover:bg-amber-700 text-white  py-3 px-6 rounded shadow-lg flex items-center transition duration-300 font-sans">
+            <a href="#booking" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg flex items-center transition duration-300 font-sans">
                 BOOK AN IV NOW →
             </a>
         </header>

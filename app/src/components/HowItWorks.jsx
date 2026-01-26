@@ -8,7 +8,7 @@ export default function HowItWorks() {
     <div className="flex flex-col items-center text-center px-4">
       {/* The number/step indicator circle */}
       {/* Note: The image's background wave is a single SVG/shape, not part of these individual divs */}
-      <div className="w-24 h-24 bg-bronze rounded-full flex items-center justify-center text-white font-serif text-3xl font-medium mb-12 shadow-lg">
+      <div className="w-24 h-24 bg-teal hover:bg-ocean rounded-full flex items-center justify-center text-white font-serif text-3xl font-medium mb-12 shadow-lg">
         {number}
       </div>
 

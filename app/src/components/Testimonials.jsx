@@ -76,7 +76,7 @@ export default function Testimonials() {
           ))}
 
           {/* View All Button Card */}
-          <div className="bg-bronze rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center group cursor-pointer">
+          <div className="bg-gradient-primary rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center group cursor-pointer">
             <div className="text-center">
               <a href='#booking' className="text-white font-semibold text-lg tracking-wide flex items-center gap-2 group-hover:gap-3 transition-all duration-300">
                 BOOK NOW

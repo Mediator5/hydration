@@ -20,4 +20,93 @@
   .border-bronze {
     border-color: #A97239;
   }
+
+  .text-teal {
+    color: #238E7E;
+  }
+
+  .bg-teal {
+    background-color: #238E7E;
+  }
+
+  .border-teal {
+    border-color: #238E7E;
+  }
+
+  .text-ocean {
+    color: #024860;
+  }
+
+  .bg-ocean {
+    background-color: #024860;
+  }
+
+  .border-ocean {
+    border-color: #024860;
+  }
+
+  .text-navy {
+    color: #172155;
+  }
+
+  .bg-navy {
+    background-color: #172155;
+  }
+
+  .border-navy {
+    border-color: #172155;
+  }
+
+  .text-indigo {
+    color: #140E45;
+  }
+
+  .bg-indigo {
+    background-color: #140E45;
+  }
+
+  .border-indigo {
+    border-color: #140E45;
+  }
+
+  .text-plum {
+    color: #5F3767;
+  }
+
+  .bg-plum {
+    background-color: #5F3767;
+  }
+
+  .border-plum {
+    border-color: #5F3767;
+  }
+
+  .bg-gradient-primary {
+    background-image: linear-gradient(135deg,
+        #238E7E 0%,
+        #024860 50%,
+        #140E45 100%);
+  }
+
+  /* Soft wellness background */
+  .bg-gradient-soft {
+    background-image: linear-gradient(180deg,
+        #ffffff 0%,
+        #f8fafc 60%,
+        #e2e8f0 100%);
+  }
+
+  /* Dark footer / CTA */
+  .bg-gradient-dark {
+    background-image: linear-gradient(135deg,
+        #172155 0%,
+        #140E45 100%);
+  }
+
+  /* Button hover accent */
+  .bg-gradient-accent {
+    background-image: linear-gradient(90deg,
+        #A97239 0%,
+        #5F3767 100%);
+  }
 }

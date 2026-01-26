@@ -34,7 +34,7 @@ export default function Hero() {
                         <p className="text-gray-500 mb-6  leading-relaxed font-sans">
                             Premium mobile hydration therapy brought directly to your home, office, hotel, or event. Our licensed medical professionals deliver safe, personalized IV treatments designed to help you feel better—fast.</p>
 
-                        <a href="#booking" className="bg-bronze hover:bg-amber-700 text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
+                        <a href="#booking" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
                             <span className="tracking-wide">BOOK NOW</span>
                             <svg
                                 className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
@@ -53,7 +53,7 @@ export default function Hero() {
                     </div>
 
                     {/* Right image section */}
-                    <img src="https://coolwaveconsulting.com/wp-content/uploads/2023/11/a-healthcare-worker-examining-pregnant-woman-indoors-at-home-.jpg" alt="" style={{ borderTopLeftRadius: '50px', borderBottomRightRadius: '50px' }} />
+                    <img src="https://caleblaw.io/wp-content/uploads/2026/01/HYDRATION-SOLUTIONS-Google-Drive-4.png" alt="" style={{ borderTopLeftRadius: '50px', borderBottomRightRadius: '50px' }} />
                 </div>
             </div>
 
