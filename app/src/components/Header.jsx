@@ -27,7 +27,7 @@ export default function Header() {
             {/* <div className="text-xl font-serif font-bold text-gray-700">
                 Hydration Solution
             </div> */}
-            <img className="w-96" src="https://caleblaw.io/wp-content/uploads/2026/02/Hydration-Solution-Logo-alternate2.png" alt="logo" />
+            <img className="w-[150px]" src="https://caleblaw.io/wp-content/uploads/2026/02/Hydration-Solution-Logo-alternate2.png" alt="logo" />
             <nav className="flex space-x-6">
                 {
                     menus.map((menu) => (
@@ -37,7 +37,7 @@ export default function Header() {
 
             </nav>
 
-            <a href="#booking" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg flex items-center transition duration-300 font-sans">
+            <a href="https://intakeq.com/booking/irzpf9" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg flex items-center transition duration-300 font-sans">
                 BOOK AN IV NOW →
             </a>
         </header>

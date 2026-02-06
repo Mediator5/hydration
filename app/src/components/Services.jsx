@@ -30,7 +30,7 @@ export default function ServicesSection() {
           <p className="text-gray-500 text-sm mb-6 leading-relaxed flex-grow">
             {description}
           </p>
-          <a href='#booking' className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow transition duration-300 inline-flex items-center text-sm">
+          <a href='https://intakeq.com/booking/irzpf9' className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow transition duration-300 inline-flex items-center text-sm">
             BOOK NOW →
           </a>
         </div>

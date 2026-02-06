@@ -34,7 +34,7 @@ export default function Hero() {
                         <p className="text-gray-500 mb-6  leading-relaxed font-sans">
                             Premium mobile hydration therapy brought directly to your home, office, hotel, or event. Our licensed medical professionals deliver safe, personalized IV treatments designed to help you feel better—fast.</p>
 
-                        <a href="#booking" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
+                        <a href="https://intakeq.com/booking/irzpf9" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
                             <span className="tracking-wide">BOOK NOW</span>
                             <svg
                                 className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"

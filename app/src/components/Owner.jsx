@@ -37,7 +37,7 @@ export default function Owner() {
                     </p>
 
                     {/* Call to Action Button */}
-                    <a href="#booking" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
+                    <a href="https://intakeq.com/booking/irzpf9" className="bg-teal hover:bg-ocean text-white  py-3 px-6 rounded shadow-lg inline-flex items-center transition duration-300 font-sans">
                         BOOK NOW →
                     </a>
                 </div>

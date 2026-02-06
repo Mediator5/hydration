@@ -27,8 +27,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#booking" className="text-gray-300 hover:text-white transition-colors duration-300">
-                    Contact Now
+                  <a href="https://intakeq.com/booking/irzpf9" className="text-gray-300 hover:text-white transition-colors duration-300">
+                    Book Now
                   </a>
                 </li>
               </ul>
