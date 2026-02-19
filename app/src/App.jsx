@@ -19,12 +19,13 @@ export default function App() {
       <About />
 
       <Services />
-      <Nurses />
+      {/* <Nurses /> */}
       <HowItWorks />
       <Video />
       <Owner />
       <Booking />
       <Testimonials />
+      
       <Footer />
 
 

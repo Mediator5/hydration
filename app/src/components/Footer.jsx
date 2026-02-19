@@ -80,7 +80,7 @@ export default function Footer() {
           </p>
 
           {/* Social Media Icons */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 hidden" >
             <a
               href="#"
               className="w-10 h-10 rounded-full bg-neutral-800 hover:bg-neutral-700 flex items-center justify-center transition-colors duration-300"

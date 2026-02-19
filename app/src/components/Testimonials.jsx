@@ -3,21 +3,21 @@ import React from 'react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Ann Peterson",
-      title: "Senior Director",
-      text: "The convenience was unbeatable. The nurse was professional, friendly, and I felt amazing afterward. Highly recommend!",
+      name: "Christian Alshon",
+      // title: "Senior Director",
+      text: "Xaivieria helped me out today. She was polite and very helpful. The needle wasn’t terrible, and it took about 30-40 minutes to finish the IV. Very convenient to have someone come to you!",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
     },
     {
-      name: "Peter Parker",
-      title: "Senior Director",
-      text: "Booking was easy and the IV therapy helped me recover fast after a long week of travel. Excellent service.",
+      name: "Jetaime Haberkorn",
+      // title: "Senior Director",
+      text: "Xaivieria is AWESOME!! Super knowledgeable, great bedside manner. Overall best experience for me and my daughter and the treatment definitely helped feel so much better! THANK YOU!!",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
     },
     {
-      name: "Jhon Smith",
-      title: "Senior Director",
-      text: "Top-notch experience from start to finish. Knowing they’re licensed and veteran-owned made me feel confident choosing them.",
+      name: "Colleen LaBonte",
+      // title: "Senior Director",
+      text: "Xaivieria was amazing! She was so kind and professional. She helped me choose the perfect combination fluids and vitamins for my condition, allowing me to avoid the ER. Cannot recommend utilizing hydration solution enough.",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop"
     }
   ];
@@ -47,7 +47,7 @@ export default function Testimonials() {
                 {testimonial.name}
               </h3>
               <div className="w-12 h-0.5 bg-bronze mb-4"></div>
-              <p className="text-sm text-gray-500 mb-4">{testimonial.title}</p>
+              {/* <p className="text-sm text-gray-500 mb-4">{testimonial.title}</p> */}
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
                 {testimonial.text}
               </p>
@@ -69,7 +69,7 @@ export default function Testimonials() {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md"
+                  className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md hidden"
                 />
               </div>
             </div>
@@ -78,8 +78,8 @@ export default function Testimonials() {
           {/* View All Button Card */}
           <div className="bg-gradient-primary rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center group cursor-pointer">
             <div className="text-center">
-              <a href='https://intakeq.com/booking/irzpf9' className="text-white font-semibold text-lg tracking-wide flex items-center gap-2 group-hover:gap-3 transition-all duration-300">
-                BOOK NOW
+              <a href='https://www.google.com/maps/place/Hydration+Solution/@27.9628675,-82.342011,10z/data=!3m1!4b1!4m6!3m5!1s0x48e9695d7a708fe9:0x6e9094a3f4af585e!8m2!3d27.9628674!4d-82.342011!16s%2Fg%2F11yn_nv1x2?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D' className="text-white font-semibold text-lg tracking-wide flex items-center gap-2 group-hover:gap-3 transition-all duration-300">
+                SEE MORE
                 <svg
                   className="w-6 h-6"
                   fill="none"
