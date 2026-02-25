@@ -66,7 +66,7 @@ export default function ServicesSection() {
             description="Support your immune system with a powerful blend of vitamins and nutrients designed to help your body stay strong and resilient year-round."
           />
           <ServiceCard
-            imgSrc={'https://caleblaw.io/wp-content/uploads/2026/01/HYDRATION-SOLUTIONS-Google-Drive-3.png'}
+            imgSrc={'https://caleblaw.io/wp-content/uploads/2026/02/Screenshot-2026-02-25-at-12.46.10-PM.png'}
             title="Athlete Recovery Drip"
             description="Speed up recovery and reduce muscle soreness with a custom IV formulated to support performance, endurance, and post-workout recovery."
           />

@@ -23,7 +23,7 @@ export default function App() {
       <HowItWorks />
       <Video />
       <Owner />
-      <Booking />
+      {/* <Booking /> */}
       <Testimonials />
       
       <Footer />
